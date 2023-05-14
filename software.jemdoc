@@ -1,0 +1,53 @@
+# jemdoc: menu{MENU}{software.html}, nofooter
+== Software
+
+== Cancer Phylogenetics
+
+=== [https://github.com/elkebir-group/paction Paction]
+
+Paction is a method to reconcile SNV and CNA clone proportions and trees for thesame tumor. The output is a set of tumor clones characterized by both SNVs and CNAs,the clone proportions and a comprehensive clone tree annotated with both SNV andCNA events.
+\[[https://github.com/elkebir-group/paction Code]\]
+
+== Doublet Detection
+
+=== [https://github.com/elkebir-group/doubletD doubletD]
+
+doubletD is an efficient doublet detector designed for scDNA-seq data. IncorporatingdoubletD in scDNA-seq analysis pipelines leads to more accurate results.
+\[[https://github.com/elkebir-group/doubletD Code]\]
+
+== Transcript Assembly
+
+=== [https://github.com/elkebir-group/Jumper Jumper]
+
+Jumper is a code that takes a bam file of RNA-seq reads and a Fasta file of the reference genome as input and reconstructs RNA transcripts and their abundances in the sample.
+\[[https://github.com/elkebir-group/Jumper Code]\]
+
+== Phylodynamics
+
+=== [https://github.com/elkebir-group/TiTUS TiTUS]
+
+TiTUS is a code that takes as input a timed pathogen phylogeny with leaves labelled by the host along with epidemiological data such as entry-removal times for the hosts and a contact map.
+It counts and uniformly samples from the set of feasbile interval vertex labelings of the timed phylogeny that satisfy the direct transmission constraint while supporting a weak transmission bottleneck.
+\[[https://github.com/elkebir-group/TiTUS Code]\]
+- *Sashittal, P.* & El-Kebir, M., [https://academic.oup.com/bioinformatics/article/36/Supplement_1/i362/5870507 Sampling and Summarizing Transmission Trees with Multi-strain Infections], /Bioinformatics/, 2020. \[[https://uofi.box.com/s/q5uabj764ixjoi9zjqdafubp9pi1bksz Paper]\]
+
+=== [https://github.com/elkebir-group/SharpTNI SharpTNI]
+
+SharpTNI is a tool for counting and sampling solutions from the space of parsimonious transmission networks under a weak transmission bottleneck constraint.
+This problem arises in phylodynamic and phylogeographic analyses of disease outbreaks.
+\[[https://github.com/elkebir-group/SharpTNI Code]\]
+- *Sashittal, P.* & El-Kebir, M., [https://www.biorxiv.org/content/10.1101/842237v1 SharpTNI:  Counting and Sampling Parsimonious Transmission Networks under a Weak Bottleneck], /BMC Medical Genomics/, 2020. \[[https://uofi.box.com/s/3b6bawcwl6qb951hbvr1rmyop250okrq Paper]\]
+
+== Data-driven Dynamics Modeling
+
+=== [https://bitbucket.org/sashitt2/lrdmd/src/master lrDMD]
+
+Low-rank dynamic mode decomposition (lrDMD) solves for a rank-constrained linear representation of the dynamical system for given series of data snapshots.
+\[[https://bitbucket.org/sashitt2/lrdmd/src/master Code]\]
+- *Sashittal, P.* & Bodony, D., [https://link.springer.com/article/10.1007/s00162-019-00508-9 Reduced-Order Control using Low-Rank Dynamic Mode Decomposition], /Theoretical and Computational Fluid Dynamics/, 2019. \[[https://uofi.box.com/s/clgq0t1y0o3iyopkq0b2qcti5c2nvdvc Paper]\]
+
+=== [https://github.com/sashitt2/optimal_sensing KF-DMD]
+
+A data-driven method for optimal sensor placement and parameter optimization using transfer operator based reduced order models.
+\[[https://github.com/sashitt2/optimal_sensing Code]\]
+- *Sashittal, P.* & Bodony, D., Data-driven sensor placement for fluid flows, Under review for /Theoretical and Computational Fluid Dynamics/, 2021.

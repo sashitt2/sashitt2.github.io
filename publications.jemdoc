@@ -1,0 +1,41 @@
+# jemdoc: menu{MENU}{publications.html}, nofooter
+==Publications
+
+[https://scholar.google.com/citations?user=wpKN9BwAAAAJ google scholar]
+
+== Journal papers
+
+. *Sashittal, P.* & El-Kebir, M., [https://academic.oup.com/bioinformatics/article/36/Supplement_1/i362/5870507 Sampling and Summarizing Transmission Trees with Multi-strain Infections], /Bioinformatics/, 2020. \[[https://uofi.box.com/s/q5uabj764ixjoi9zjqdafubp9pi1bksz Paper]\]
+. *Sashittal, P.* & El-Kebir, M., [https://www.biorxiv.org/content/10.1101/842237v1 SharpTNI:  Counting and Sampling Parsimonious Transmission Networks under a Weak Bottleneck], /BMC Medical Genomics/, 2020. \[[https://uofi.box.com/s/3b6bawcwl6qb951hbvr1rmyop250okrq Paper]\]
+. *Sashittal, P.* & Bodony, D., [https://link.springer.com/article/10.1007/s00162-019-00508-9 Reduced-Order Control using Low-Rank Dynamic Mode Decomposition], /Theoretical and Computational Fluid Dynamics/, 2019. \[[https://uofi.box.com/s/clgq0t1y0o3iyopkq0b2qcti5c2nvdvc Paper]\]
+
+== Conference papers
+
+. *Sashittal, P.* & Bodony, D., Data-Driven Reduced Order Control for Partially Observed Fluid Systems, AIAA Scitech 2020 Forum (p. 1813), 2020. \[[https://uofi.box.com/s/r608bve5qg0mbfv0roqaef41hldq47u5 Paper]\]
+. *Sashittal, P.* & Bodony, D., Low-Rank Dynamic Mode Decomposition using Riemannian Manifold Optimization, 57th IEEE Conference in Decision and Control (CDC), 2018. \[[https://uofi.box.com/s/f597muvgmum49g00fr7p1hx7ngi9hzdu Paper]\]
+. *Sashittal, P.*, Prasaad, Y., Sinha, K. & Larsson, J., Study of Unsteady Shock Motion in Shock/Turbulence Interaction, 7th AIAA Theoretical Fluid Mechanics Conference, 2014. \[[https://uofi.box.com/s/ceu8zhkcneunglu9grnrm3p5abha58a2 Paper]\]
+. Quadros, R., *Sashittal, P.*, Ramachandran, A. & Sinha, K., Evolution of Turbulent Heat Flux across a Shock Wave, 5th European Conference for Aeronautics and Space Sciences (EUCASS), 2013. \[[https://uofi.box.com/s/lc3mep2katuiaejejhdql9dkqxhlj9jd Paper]\]
+
+== Conference talks
+
+. El-Kebir, M., Oh, J., Qi, Y. & *Sashittal, P.*, Counting and Sampling Problems in Computational Biology, MCW, 2020. \[[https://uofi.box.com/s/aoh7yebkgd59ihhaughrkvp08gjkmijy Presentation]\]
+. *Sashittal, P.* & El-Kebir, M., Sampling and Summarizing Transmission Trees with Multi-strain Infections, ISMB, 2020. \[[https://uofi.box.com/s/jhg4q6zb106gvn7xg5a9a11j1fxpwcss Presentation]\]
+. *Sashittal, P.*, Luo, Y., Peng, J & El-Kebir, M., Characterization of SARS-CoV-2 viral diversity within and across hosts, ISMB, 2020 (COVID-19 track). \[[https://uofi.box.com/s/h3dou2kj1vt4u8vjwaf98jyyxwfal4mf Presentation]\]
+. *Sashittal, P.* & El-Kebir, M., SharpTNI:  Counting and Sampling Parsimonious Transmission Networks under a Weak Bottleneck, RECOMB-CG, 2019. \[[https://uofi.box.com/s/24kirf8ixy3xg7kp8j9k2z5mfifdhipx Presentation]\]
+. *Sashittal, P.* & Bodony, D., Reduced order flow control using input-output hidden Markov model, APS Division of Fluid Dynamics Meeting Abstracts, 2019. \[[https://meetings.aps.org/Meeting/DFD19/Session/P10.5 Abstract]\]
+. Bodony, D. & *Sashittal, P.*, Low-rank modeling of primary atomization, APS Division of Fluid Dynamics Meeting Abstracts, 2018. \[[https://meetings.aps.org/Meeting/DFD18/Session/A01.2 Abstract]\]
+. *Sashittal, P.* & Bodony, D., Reduced order control using low-rank dynamic mode decomposition, APS Division of Fluid Dynamics Meeting Abstracts, 2018. \[[http://meetings.aps.org/Meeting/DFD18/Session/Q01.12 Abstract]\]
+. Banks, M., *Sashittal, P.* & Bodony, D., Towards data-driven control of multiphase flows, 14th International Conference on Liquid Atomization and Sprays, 2018. \[[https://uofi.box.com/s/6b9pza73xsoudne4mxn43b29x1hwg2t6 Paper]\]
+. *Sashittal, P.*, Sayadi, T. & Schmid, P., Frequency response of reacting jets in crossflow, 12th ERCOFTAC SIG 33 Workshop, 2017. \[[https://uofi.box.com/s/bu6qzoqq2whvr2s74koclkp5dyuu7fm9 Presentation]\]
+. *Sashittal, P.*, Sayadi, T. & Schmid, P., Adjoint based sensitivity analysis of a reacting jet in crossflow, APS Division of Fluid Dynamics Meeting Abstracts, 2016. \[[https://uofi.box.com/s/5a82tc2hk6nkeuow2lx486c51qhgy75s Presentation]\]
+
+== Technical reports
+
+. Bodony, D., *Sashittal, P.* & Towne, A., Low-rank modeling of primary atomization, Proceedings of the Center for Turbulence Research Summer program, 2018. \[[https://uofi.box.com/s/sjuzqxrz5u4z6x4q0z24ob2xycp6z4lw Paper]\]
+. *Sashittal, P.*, Sayadi, T., Schmid, P., Jang, I. & Magri, L. Adjoint-based sensitivity analysis of a reactive jet in crossflow, Proceedings of the Center for Turbulence Research Summer program, 2016. \[[https://uofi.box.com/s/rgxz9th205xzl3i93gp0kls95mbvgdtu Paper]\]
+
+== Poster presentations
+
+. *Sashittal, P.*, Luo, Y., Peng, J & El-Kebir, M., Characterization of SARS-CoV-2 viral diversity within and across hosts, ISMB, 2020 (COVID-19 track). \[[https://uofi.box.com/s/8xi198pnn3cfkr9vh6w55zk2gkzay8ce Poster]\]
+. *Sashittal, P.* & El-Kebir, M., SharpTNI: Counting and Sampling Parsimonious Transmission Networks under a Weak Bottleneck, RECOMB-CG, 2019. \[[https://uofi.box.com/s/5da1nyhuko2xfu8ftf2k6vz3trrtjfys Poster]\]
+. *Sashittal, P.* & Bodony, D., Low-rank dynamic mode decomposition using Riemannian manifold optimization, Aerospace Graduate Research Symposium at UIUC (2018). \[[https://uofi.box.com/s/trl596piwiviooof78s7x2gh8xl9quco Poster]\]
