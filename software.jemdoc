@@ -1,28 +1,48 @@
 # jemdoc: menu{MENU}{software.html}, nofooter
 == Software
 
-== Cancer Phylogenetics
+== Cell lineage and differentiation
+
+=== [https://github.com/raphael-group/startle Startle]
+
+Startle uses the maximum parsimony framework to find single-cell lineage trees from CRISPR-Cas9 based lineage tracing data using the star homoplasy model. \[[https://github.com/raphael-group/startle Code]\]
+- *Sashittal P.*\*, Schmidt H.\*, Chan M. and Raphael B., [https://www.biorxiv.org/content/10.1101/2022.12.18.520935v1 Startle: a star homoplasy approach for CRISPR-Cas9 lineage tracing], /BioRxiv/ 2023.
+
+== Cancer genome evolution
+
+=== [https://github.com/raphael-group/constrained-Dollo ConDoR]
+
+ConDoR is an algorithm to infer tumor phylogenies from targeted single-cell DNA sequencing data using the Constrained Dollo model. \[[https://github.com/raphael-group/constrained-Dollo Code]\]
+- *Sashittal P.*, Zhang H., Iacobuzio-Donahue C. A. and Raphael B., [https://www.biorxiv.org/content/10.1101/2023.01.05.522408v1 ConDoR: Tumor phylogeny inference with a copy-number constrained mutation loss model], /BioRxiv/ 2023.
 
 === [https://github.com/elkebir-group/paction Paction]
 
 Paction is a method to reconcile SNV and CNA clone proportions and trees for thesame tumor. The output is a set of tumor clones characterized by both SNVs and CNAs,the clone proportions and a comprehensive clone tree annotated with both SNV andCNA events.
 \[[https://github.com/elkebir-group/paction Code]\]
-
-== Doublet Detection
+- *Sashittal P.*, Zaccaria S. and El-Kebir M., [https://almob.biomedcentral.com/articles/10.1186/s13015-022-00209-9 Parsimonious clone tree integration in cancer], /Algorithms and Molecular Biology/, 2022.
 
 === [https://github.com/elkebir-group/doubletD doubletD]
 
-doubletD is an efficient doublet detector designed for scDNA-seq data. IncorporatingdoubletD in scDNA-seq analysis pipelines leads to more accurate results.
+doubletD is an efficient doublet detector designed for single-cell DNA sequencing (scDNA-seq) data. Incorporating doubletD in scDNA-seq analysis pipelines leads to more accurate cancer genotyping and tumor phylogeny inference.
 \[[https://github.com/elkebir-group/doubletD Code]\]
+- Weber, L.\*, *Sashittal P.*\*, and El-Kebir M., [https://academic.oup.com/bioinformatics/article/37/Supplement_1/i214/6319699?login=false doubletD: detecting doublets in single-cell DNA sequencing data], /Bioinformatics/, 2021. 
 
-== Transcript Assembly
+== Infectious disease evolution and transmission
+
+=== [https://github.com/elkebir-group/primes PRIMES]
+PRIMES is a computational to predict the sensitivity and specificity of a PCR assay to detect specific pathogen lineages of interest.\[[https://github.com/elkebir-group/primes Code]\]
+- Oh C.\*, *Sashittal P.*\*, Zhou A., Wang L., El-Kebir M. and Nguyen T. H., [https://journals.asm.org/doi/full/10.1128/aem.02289-21 Design of SARS-CoV-2 variant-specific PCR assays considering regional and temporal characteristics], /Applied and Environmental Microbiology/, 2022.
+
+
+=== [https://github.com/elkebir-group/CORSID CORSID]
+CORSID is an algorithm to simultaneously identify TRS sites, the core sequence and gene locations given an unannotated coronavirus genome sequence. \[[https://github.com/elkebir-group/CORSID Code]\]
+- Zhang C.\*, *Sashittal P.*\*, Xiang M., Zhang Y., Kazi A. and El-Kebir M., [https://academic.oup.com/mbe/article/39/7/msac133/6608352 Accurate identification of transcription regulatory sequences and genes in Coronaviruses], /Molecular Biology and Evolution/, 2022. 
 
 === [https://github.com/elkebir-group/Jumper Jumper]
 
 Jumper is a code that takes a bam file of RNA-seq reads and a Fasta file of the reference genome as input and reconstructs RNA transcripts and their abundances in the sample.
 \[[https://github.com/elkebir-group/Jumper Code]\]
-
-== Phylodynamics
+- *Sashittal P.*, Zhang, C., Peng J. and El-Kebir M., [https://www.nature.com/articles/s41467-021-26944-y Jumper enables discontinuous transcript assembly in Coronaviruses], /Nature Communications/, 2021.
 
 === [https://github.com/elkebir-group/TiTUS TiTUS]
 
@@ -38,7 +58,7 @@ This problem arises in phylodynamic and phylogeographic analyses of disease outb
 \[[https://github.com/elkebir-group/SharpTNI Code]\]
 - *Sashittal, P.* & El-Kebir, M., [https://www.biorxiv.org/content/10.1101/842237v1 SharpTNI:  Counting and Sampling Parsimonious Transmission Networks under a Weak Bottleneck], /BMC Medical Genomics/, 2020. \[[https://uofi.box.com/s/3b6bawcwl6qb951hbvr1rmyop250okrq Paper]\]
 
-== Data-driven Dynamics Modeling
+== Data-driven modeling of flow dynamics
 
 === [https://bitbucket.org/sashitt2/lrdmd/src/master lrDMD]
 
@@ -50,4 +70,4 @@ Low-rank dynamic mode decomposition (lrDMD) solves for a rank-constrained linear
 
 A data-driven method for optimal sensor placement and parameter optimization using transfer operator based reduced order models.
 \[[https://github.com/sashitt2/optimal_sensing Code]\]
-- *Sashittal, P.* & Bodony, D., Data-driven sensor placement for fluid flows, Under review for /Theoretical and Computational Fluid Dynamics/, 2021.
+- *Sashittal, P.* & Bodony, D., [https://link.springer.com/article/10.1007/s00162-021-00584-w Data-driven sensor placement for fluid flows], /Theoretical and Computational Fluid Dynamics/, 2021.
