@@ -3,53 +3,64 @@
 
 == Cell lineage and differentiation
 
+=== [https://github.com/raphael-group/MERLIN Merlin]
+Merlin uses a novel nested perfect phylogeny model to jointly infer cell lineage trees and mitochondrial clone tree using mitochondrial muations detected from single cell sequencing data. \[[https://github.com/raphael-group/MERLIN Code]\]
+- *Palash Sashittal*, Viola Chen, Amey Pasarkar, Benjamin Raphael, [https://academic.oup.com/bioinformatics/article/40/Supplement_1/i218/7700844 Joint inference of cell lineage and mitochondrial evolution from single-cell sequencing data], /Bioinformatics/, 2024.
+
 === [https://github.com/raphael-group/startle Startle]
 
 Startle uses the maximum parsimony framework to find single-cell lineage trees from CRISPR-Cas9 based lineage tracing data using the star homoplasy model. \[[https://github.com/raphael-group/startle Code]\]
-- *Sashittal P.*\*, Schmidt H.\*, Chan M. and Raphael B., [https://www.biorxiv.org/content/10.1101/2022.12.18.520935v1 Startle: a star homoplasy approach for CRISPR-Cas9 lineage tracing], /BioRxiv/ 2023.
+- *Palash Sashittal*\*, Henri Schmidt\*, Michelle Chan and Benjamin Raphael, [https://www.cell.com/cell-systems/abstract/S2405-4712(23)00328-9 Startle: a star homoplasy approach for CRISPR-Cas9 lineage tracing], /Cell Systems/, 2023.
 
 == Cancer genome evolution
 
 === [https://github.com/raphael-group/constrained-Dollo ConDoR]
 
 ConDoR is an algorithm to infer tumor phylogenies from targeted single-cell DNA sequencing data using the Constrained Dollo model. \[[https://github.com/raphael-group/constrained-Dollo Code]\]
-- *Sashittal P.*, Zhang H., Iacobuzio-Donahue C. A. and Raphael B., [https://www.biorxiv.org/content/10.1101/2023.01.05.522408v1 ConDoR: Tumor phylogeny inference with a copy-number constrained mutation loss model], /BioRxiv/ 2023.
+- *Palash Sashittal*, Hoachen Zhang, Christine Iacobuzio-Donahue and Benjamin Raphael, [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03106-5 ConDoR: Tumor phylogeny inference with a copy-number constrained mutation loss model], /Genome Biology/, 2023.
+
+=== [https://github.com/raphael-group/lazac-copy-number Lazac]
+
+Lazac is a tool for inferring single-cell resolution copy number phylogenies from copy number data. It is based on our zero-agnostic copy number transformation (ZCNT) model, which we recently introduced as a simplification of the copy number transformation (CNT) model. \[[https://github.com/raphael-group/lazac-copy-number Code]\]
+- Henri Schmidt, *Palash Sashittal* and Benjamin Raphael, [https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011590 A zero-agnostic model for copy number evolution in cancer], /PLOS Computational Biology/, 2023.
 
 === [https://github.com/elkebir-group/paction Paction]
 
 Paction is a method to reconcile SNV and CNA clone proportions and trees for thesame tumor. The output is a set of tumor clones characterized by both SNVs and CNAs,the clone proportions and a comprehensive clone tree annotated with both SNV andCNA events.
 \[[https://github.com/elkebir-group/paction Code]\]
-- *Sashittal P.*, Zaccaria S. and El-Kebir M., [https://almob.biomedcentral.com/articles/10.1186/s13015-022-00209-9 Parsimonious clone tree integration in cancer], /Algorithms and Molecular Biology/, 2022.
+- *Palash Sashittal*, Simone Zaccaria and Mohammed El-Kebir, [https://almob.biomedcentral.com/articles/10.1186/s13015-022-00209-9 Parsimonious clone tree integration in cancer], /Algorithms and Molecular Biology/, 2022.
 
 === [https://github.com/elkebir-group/doubletD doubletD]
 
 doubletD is an efficient doublet detector designed for single-cell DNA sequencing (scDNA-seq) data. Incorporating doubletD in scDNA-seq analysis pipelines leads to more accurate cancer genotyping and tumor phylogeny inference.
 \[[https://github.com/elkebir-group/doubletD Code]\]
-- Weber, L.\*, *Sashittal P.*\*, and El-Kebir M., [https://academic.oup.com/bioinformatics/article/37/Supplement_1/i214/6319699?login=false doubletD: detecting doublets in single-cell DNA sequencing data], /Bioinformatics/, 2021. 
+- Leah Weber\*, *Palash Sashittal*\*, and Mohammed El-Kebir, [https://academic.oup.com/bioinformatics/article/37/Supplement_1/i214/6319699?login=false doubletD: detecting doublets in single-cell DNA sequencing data], /Bioinformatics/, 2021.
 
 == Infectious disease evolution and transmission
 
 === [https://github.com/elkebir-group/primes PRIMES]
-PRIMES is a computational to predict the sensitivity and specificity of a PCR assay to detect specific pathogen lineages of interest.\[[https://github.com/elkebir-group/primes Code]\]
-- Oh C.\*, *Sashittal P.*\*, Zhou A., Wang L., El-Kebir M. and Nguyen T. H., [https://journals.asm.org/doi/full/10.1128/aem.02289-21 Design of SARS-CoV-2 variant-specific PCR assays considering regional and temporal characteristics], /Applied and Environmental Microbiology/, 2022.
 
+PRIMES is a computational to predict the sensitivity and specificity of a PCR assay to detect specific pathogen lineages of interest.\[[https://github.com/elkebir-group/primes Code]\]
+- Chamtuet Oh\*, *Palash Sashittal*\*, Aijia Zhou, Leyi Wang, Mohammed El-Kebir and Thanh Nguyen,[https://journals.asm.org/doi/full/10.1128/aem.02289-21 Design of SARS-CoV-2 variant-specific PCR assays considering regional and temporal characteristics], /Applied and Environmental Microbiology/, 2022.
 
 === [https://github.com/elkebir-group/CORSID CORSID]
+
 CORSID is an algorithm to simultaneously identify TRS sites, the core sequence and gene locations given an unannotated coronavirus genome sequence. \[[https://github.com/elkebir-group/CORSID Code]\]
-- Zhang C.\*, *Sashittal P.*\*, Xiang M., Zhang Y., Kazi A. and El-Kebir M., [https://academic.oup.com/mbe/article/39/7/msac133/6608352 Accurate identification of transcription regulatory sequences and genes in Coronaviruses], /Molecular Biology and Evolution/, 2022. 
+- Chuanyi Zhang\*, *Palash Sashittal*\*, Michael Xiang, Yichi Zhang, Ayesha Kazi and Mohammed El-Kebir, [https://academic.oup.com/mbe/article/39/7/msac133/6608352 Accurate identification of transcription regulatory sequences and genes in Coronaviruses], /Molecular Biology and Evolution/, 2022.
 
 === [https://github.com/elkebir-group/Jumper Jumper]
 
 Jumper is a code that takes a bam file of RNA-seq reads and a Fasta file of the reference genome as input and reconstructs RNA transcripts and their abundances in the sample.
 \[[https://github.com/elkebir-group/Jumper Code]\]
-- *Sashittal P.*, Zhang, C., Peng J. and El-Kebir M., [https://www.nature.com/articles/s41467-021-26944-y Jumper enables discontinuous transcript assembly in Coronaviruses], /Nature Communications/, 2021.
+- *Palash Sashittal*, Chuanyi Zhang, Jian Peng and Mohammed El-Kebir, [https://www.nature.com/articles/s41467-021-26944-y Jumper enables discontinuous transcript assembly in Coronaviruses], /Nature Communications/, 2021.
+
 
 === [https://github.com/elkebir-group/TiTUS TiTUS]
 
 TiTUS is a code that takes as input a timed pathogen phylogeny with leaves labelled by the host along with epidemiological data such as entry-removal times for the hosts and a contact map.
 It counts and uniformly samples from the set of feasbile interval vertex labelings of the timed phylogeny that satisfy the direct transmission constraint while supporting a weak transmission bottleneck.
 \[[https://github.com/elkebir-group/TiTUS Code]\]
-- *Sashittal, P.* & El-Kebir, M., [https://academic.oup.com/bioinformatics/article/36/Supplement_1/i362/5870507 Sampling and Summarizing Transmission Trees with Multi-strain Infections], /Bioinformatics/, 2020. \[[https://uofi.box.com/s/q5uabj764ixjoi9zjqdafubp9pi1bksz Paper]\]
+- *Palash Sashittal* and Mohammed El-Kebir, [https://academic.oup.com/bioinformatics/article/36/Supplement_1/i362/5870507 Sampling and summarizing transmission trees with multi-strain infections], /Bioinformatics/, 2020.
 
 === [https://github.com/elkebir-group/SharpTNI SharpTNI]
 

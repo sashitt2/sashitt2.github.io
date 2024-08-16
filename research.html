@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research Directions</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Palash Sashittal</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research Directions</h1>
+</div>
+<h2>Cell lineage and differentiation</h2>
+<table class="imgtable"><tr><td>
+<img src="figures/lineage_cropped.png" alt="schematic of cell lineage tree and cell differentiation map" width="400px" height="167px" />&nbsp;</td>
+<td align="left"><p>A multicellular organism is the result of a complex process involving division and differentiation of cells.
+A fundamental goal of developmental biology is to understand (1) the ancestral relationship between the cells, i.e. the <i>cell lineage tree</i>, and (2) all of the intermediate cell types and cell type transitions, i.e. the <i>cell differentiation map</i>, that occur during development.
+Recent advances in high-throughput lineage tracing technologies hold the key to uncovering the lineage tree and differentiation map for complex organisms.
+Lineage tracing technologies employ genome editing tools, such as CRISPR-Cas9 editing, in conjunction with single-cell sequencing methods, such as scRNA-seq, to simultaneously measure the lineage and state of individual cells in complex organisms such as zebrafish and mouse.
+However, inference of the cell lineage tree and the cell differentiation map from lineage tracing data remains challenging because (i) genome editing tools often introduce the same mutations in cells with different lineages (<i>homoplasy</i>) making it hard to accurately trace the ancestry of cells, (ii) lineage tracers do not measure the cell type of the ancestral cells, many of which may have <i>progenitor</i> cell types not observed in the extant cells of the organism and (iii) lineage tracing data has errors and missing information (<i>dropout</i>).
+We develop specialized algorithms for accurate lineage tree inferene and cell differentiation mapping from lineage tracing data.
+</p>
+</td></tr></table>
+<ul>
+<li><p><b>Palash Sashittal</b>, Viola Chen, Amey Pasarkar, Benjamin Raphael, <a href="https://academic.oup.com/bioinformatics/article/40/Supplement_1/i218/7700844" target=&ldquo;blank&rdquo;>Joint inference of cell lineage and mitochondrial evolution from single-cell sequencing data</a>, <i>Bioinformatics</i>, 2024.
+</p>
+</li>
+<li><p><b>Palash Sashittal</b>*, Henri Schmidt*, Michelle Chan and Benjamin Raphael, <a href="https://www.cell.com/cell-systems/abstract/S2405-4712(23)00328-9" target=&ldquo;blank&rdquo;>Startle: a star homoplasy approach for CRISPR-Cas9 lineage tracing</a>, <i>Cell Systems</i>, 2023.
+</p>
+</li>
+</ul>
+<h2>Cancer genome evolution</h2>
+<table class="imgtable"><tr><td>
+<img src="figures/cancer_cropped.png" alt="schematic of cancer evolution" width="250px" height="295px" />&nbsp;</td>
+<td align="left"><p>Cancer is an evolutionary process in which somatic mutations across all genomic scales accumulate in a population of cells.
+This process results in a heterogeneous tumor with subpopulations of cells, called <i>clones</i>, with distinct genomes.
+Characterization of this <i>intra-tumor heterogeneity</i> and reconstruction of the evolutionary history of the tumor, known as the <i>tumor phylogeny</i>, is crucial for understanding cancer progression and developing effective therapies for treatment.
+Single-cell DNA sequencing (scDNA-seq) has emerged as a powerful tool for achieving this, enabling parallel genomic sequencing of thousands of individual cells from a tumor.
+However, current scDNA-seq technologies are error-prone and produce data with missing information.
+As such, there is a need for robust and scalable computational methods to characterize the heterogeneity within cancer tumors from scDNA-seq data.
+We develop comprehensive models of cancer evolution that incorporate prevoiusly neglected biological processes and introduce novel problem statements to analyze single-cell sequencing data in innovative ways.
+</p>
+<ul>
+<li><p><b>Palash Sashittal</b>, Hoachen Zhang, Christine Iacobuzio-Donahue and Benjamin Raphael, <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03106-5" target=&ldquo;blank&rdquo;>ConDoR: Tumor phylogeny inference with a copy-number constrained mutation loss model</a>, <i>Genome Biology</i>, 2023.
+</p>
+</li>
+<li><p>Henri Schmidt, <b>Palash Sashittal</b> and Benjamin Raphael, <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011590" target=&ldquo;blank&rdquo;>A zero-agnostic model for copy number evolution in cancer</a>, <i>PLOS Computational Biology</i>, 2023.
+</p>
+</li>
+<li><p><b>Palash Sashittal</b>, Simone Zaccaria and Mohammed El-Kebir, <a href="https://almob.biomedcentral.com/articles/10.1186/s13015-022-00209-9" target=&ldquo;blank&rdquo;>Parsimonious clone tree integration in cancer</a>, <i>Algorithms and Molecular Biology</i>, 2022.
+</p>
+</li>
+<li><p>Leah Weber*, <b>Palash Sashittal</b>*, and Mohammed El-Kebir, <a href="https://academic.oup.com/bioinformatics/article/37/Supplement_1/i214/6319699?login=false" target=&ldquo;blank&rdquo;>doubletD: detecting doublets in single-cell DNA sequencing data</a>, <i>Bioinformatics</i>, 2021.
+</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Infectious disease evolution and transmission</h2>
+<table class="imgtable"><tr><td>
+<img src="figures/infection_cropped.png" alt="alt text" width="400px" height="235px" />&nbsp;</td>
+<td align="left"><p>During an outbreak, pathogens undergo evolutionary changes as they are transmitted from one host to another.
+Pathogens, such as viruses or bacteria, accumulate genetic mutations or undergo genetic recombination during replication within a host's body.
+Consequently, the host harbors multiple variants of the pathogen, which is known as <i>within-host diversity</i>.
+Identifying and characterizing the diversity of pathogen variants is crucial for timely outbreak management and predicting the effectiveness of treatment for infected patients.
+We work on problems such as quantifying the prevalence of variants of interest (VoIs) of SARS-CoV-2 in wastewater; deciphering the diversity of SARS-CoV-2 within and across patients; assembling coronavirus transcripts; and <i>de novo</i> identification of genes in coronavirus genomes.
+</p>
+<ul>
+<li><p><b>Palash Sashittal</b>, Chuanyi Zhang, Jian Peng and Mohammed El-Kebir, <a href="https://www.nature.com/articles/s41467-021-26944-y" target=&ldquo;blank&rdquo;>Jumper enables discontinuous transcript assembly in Coronaviruses</a>, <i>Nature Communications</i>, 2021.
+</p>
+</li>
+<li><p>Chuanyi Zhang*, <b>Palash Sashittal</b>*, Michael Xiang, Yichi Zhang, Ayesha Kazi and Mohammed El-Kebir, <a href="https://academic.oup.com/mbe/article/39/7/msac133/6608352" target=&ldquo;blank&rdquo;>Accurate identification of transcription regulatory sequences and genes in Coronaviruses</a>, <i>Molecular Biology and Evolution</i>, 2022.
+</p>
+</li>
+</ul>
+</td></tr></table>
+<ul>
+<li><p>Chamtuet Oh*, <b>Palash Sashittal</b>*, Aijia Zhou, Leyi Wang, Mohammed El-Kebir and Thanh Nguyen, <a href="https://journals.asm.org/doi/full/10.1128/aem.02289-21" target=&ldquo;blank&rdquo;>Design of SARS-CoV-2 variant-specific PCR assays considering regional and temporal characteristics</a>, <i>Applied and Environmental Microbiology</i>, 2022.
+</p>
+</li>
+<li><p><b>Palash Sashittal</b> and Mohammed El-Kebir, <a href="https://academic.oup.com/bioinformatics/article/36/Supplement_1/i362/5870507" target=&ldquo;blank&rdquo;>Sampling and summarizing transmission trees with multi-strain infections</a>, <i>Bioinformatics</i>, 2020.
+</p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</body>
+</html>

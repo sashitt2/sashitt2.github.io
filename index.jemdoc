@@ -3,22 +3,32 @@
 
 ~~~
 {}{img_left}{figures/scholar_mugshot.jpg}{alt text}{150}{181}{https://sashitt2.github.io/}
-Postdoctoral Research Associate,\n [https://www.cs.princeton.edu Computer Science], \n [https://www.princeton.edu Princeton University]\n
+Assistant Professor,\n [https://cs.vt.edu Computer Science], \n [https://www.vt.edu Virginia Tech]\n
 
-Email: /ps7731/ \[@\] princeton \[DOT\] edu \n
-Contact: 35 Olden St, Room 313
+Email: /sashittal/ \[@\] vt \[DOT\] edu \n
+Office: tbd
 ~~~
 
 == About me
-I am a postdoctoral research associate in the [https://www.cs.princeton.edu Computer Science Department] at [https://www.princeton.edu Princeton University].
-Prior to this, I completed by Ph.D. in Aerospace Engineering at [http://illinois.edu/ UIUC] under the guidance of [http://www.ae.illinois.edu/directory/profile/bodony Prof. Daniel Bodony].
-Along the way, I also completing a Masters in [https://cs.illinois.edu/ Compuer Science] at UIUC under the guidance of [http://www.el-kebir.net/ Prof. Mohammed El-Kebir].
-I did my undergrad at [http://www.iitb.ac.in/ Indian Institute of Technology (IIT) Bombay] with a B.Tech in [http://www.aero.iitb.ac.in/home/ Aerospace Engineering], and was fortunate to have worked with [http://www.hypersonic-cfd.com/index.html Prof. Krishnendu Sinha] and [http://terpconnect.umd.edu/~jola/ Prof. Johan Larsson] during my time there.
+I am an Assistant Professor in the Computer Science department at Virginia Tech.
+Prior to joining Virginia Tech, I was a Postdoctoral Research Associate with [https://www.cs.princeton.edu/~braphael Prof. Ben Raphael] in the Computer Science Department at Princeton University.
+I received a Ph.D. in Aerospace Engineering at University of Illinois Urbana-Champaign (UIUC) under the guidance of [http://www.ae.illinois.edu/directory/profile/bodony Prof. Daniel Bodony].
+Along the way, I also completed an M.S. in Computer Science from the UIUC advised by [http://www.el-kebir.net/ Prof. Mohammed El-Kebir].
+I did my undergrad at Indian Institute of Technology (IIT) Bombay with a B.Tech. in Aerospace Engineering.
 
 == Research
-Broadly speaking, my current research interests lie in formulating and solving optimization and inference problems with biomedical/healthcare applications.
-I especially prefer to work on problems that require a combination of ideas from mathematics and computer science.
+My research focuses on the design of combinatorial and statistical algorithms to analyze and interpret sequencing data.
+While the algorithms I develop generalize to several applications, I am particularly interested in studying micro-evolutionary biological systems.
+Recent areas of emphasis include (i) infectious disease evolution and transmission, (ii) cancer genome evolution, and (iii) cell lineage and differentiation.
+I enjoy translating complex biological questions to mathematical problems, and characterizing the complexity and combinatorial structure of the solutions of these problems.
+My research goal is to develop novel algorithms that leverage cutting-edge sequencing technologies to address vital biological questions and aid clinical decision-making.\n\n
 
-#[/research.html Find out more]. \n
+~~~
+{}{}
+I am actively seeking students and postdoctoral researchers to join my research group at Virginia Tech.
+If you are interested, please feel free to reach out to me by email.
+~~~
+
+[/research.html Find out more]. \n
 [/publications.html Full list of publications]. \n
 [https://github.com/sashitt2/sashitt2.github.io/blob/main/files/Sashittal_CV.pdf A brief CV].

@@ -1,47 +1,50 @@
 # jemdoc: menu{MENU}{publications.html}, nofooter
-==Publications
+==Selected Publications
 
 [https://scholar.google.com/citations?user=wpKN9BwAAAAJ Google Scholar]\n
 Author order generally follows the convention in biology, where first author carried out majority of the work (joint first authorship is indicated by ‘\∗’)
 
 == Journal papers
 
-. *Sashittal P.*, Zhang H., Iacobuzio-Donahue C. and Raphael B.\n
-[https://www.biorxiv.org/content/10.1101/2023.01.05.522408v1 ConDoR: Tumor phylogeny inference with a copy-number constrained mutation loss model]\n
-/Genome Biology/, 2023 (In print).
-. *Sashittal P.*\*, Schmidt H.\*, Chan M. and Raphael B.\n 
-[https://www.biorxiv.org/content/10.1101/2022.12.18.520935v1 Startle: a star homoplasy approach for CRISPR-Cas9 lineage tracing]\n
-/Cell Systems/, 2023 (In print).
-. Schmidt H., *Sashittal P.* and Raphael B.\n
-[https://www.biorxiv.org/content/10.1101/2023.04.10.536302v1 A zero-agnostic model for copy number evolution in cancer]\n
-/PLOS Computational Biology/, 2023 (In print).
-. *Sashittal P.*, Chiodi R., Morgan T. B., Desjardins O., Heindel T. J. and Bodony D.\n
+. *Palash Sashittal*, Viola Chen, Amey Pasarkar, Benjamin Raphael\n
+[https://academic.oup.com/bioinformatics/article/40/Supplement_1/i218/7700844 Joint inference of cell lineage and mitochondrial evolution from single-cell sequencing data]\n
+/Bioinformatics/, 2024.
+. *Palash Sashittal*, Hoachen Zhang, Christine Iacobuzio-Donahue and Benjamin Raphael\n
+[https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03106-5 ConDoR: Tumor phylogeny inference with a copy-number constrained mutation loss model]\n
+/Genome Biology/, 2023.
+. *Palash Sashittal*\*, Henri Schmidt\*, Michelle Chan and Benjamin Raphael\n
+[https://www.cell.com/cell-systems/abstract/S2405-4712(23)00328-9 Startle: a star homoplasy approach for CRISPR-Cas9 lineage tracing]\n
+/Cell Systems/, 2023.
+. Henri Schmidt, *Palash Sashittal* and Benjamin Raphael\n
+[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011590 A zero-agnostic model for copy number evolution in cancer]\n
+/PLOS Computational Biology/, 2023.
+. *Palash Sashittal*, Robert Chiodi, Tim Morgan, Olivier Desjardins, Theodore Heindel and Daniel Bodony\n
 [https://www.sciencedirect.com/science/article/abs/pii/S0301932222001781 Modal analysis and interface tracking of multiphase flows using dynamic mode decomposition]\n
-/International Journal of Multiphase Flows/, 2022. 
-. Zhang C.\*, *Sashittal P.*\*, Xiang M., Zhang Y., Kazi A. and El-Kebir M.\n
+/International Journal of Multiphase Flows/, 2022.
+. Chuanyi Zhang\*, *Palash Sashittal*\*, Michael Xiang, Yichi Zhang, Ayesha Kazi and Mohammed El-Kebir\n
 [https://academic.oup.com/mbe/article/39/7/msac133/6608352 Accurate identification of transcription regulatory sequences and genes in Coronaviruses]\n
 /Molecular Biology and Evolution/, 2022.
-. *Sashittal P.*, Zaccaria S. and El-Kebir M.\n
+. *Palash Sashittal*, Simone Zaccaria and Mohammed El-Kebir\n
 [https://almob.biomedcentral.com/articles/10.1186/s13015-022-00209-9 Parsimonious clone tree integration in cancer]\n
 /Algorithms and Molecular Biology/, 2022.
-. Oh C.\*, *Sashittal P.*\*, Zhou A., Wang L., El-Kebir M. and Nguyen T. H.\n
+. Chamtuet Oh\*, *Palash Sashittal*\*, Aijia Zhou, Leyi Wang, Mohammed El-Kebir and Thanh Nguyen\n
 [https://journals.asm.org/doi/full/10.1128/aem.02289-21 Design of SARS-CoV-2 variant-specific PCR assays considering regional and temporal characteristics]\n
 /Applied and Environmental Microbiology/, 2022.
-. *Sashittal P.*, Zhang, C., Peng J. and El-Kebir M.\n
+. *Palash Sashittal*, Chuanyi Zhang, Jian Peng and Mohammed El-Kebir\n
 [https://www.nature.com/articles/s41467-021-26944-y Jumper enables discontinuous transcript assembly in Coronaviruses]\n
 /Nature Communications/, 2021.
-. *Sashittal P.* and Bodony D.\n
+. *Palash Sashittal* and Daniel Bodony\n
 [https://link.springer.com/article/10.1007/s00162-021-00584-w Data driven sensor placement for fluid flows]\n
 /Theoretical and Computational Fluid Dynamics/, 2021.
-. Weber, L.\*, *Sashittal P.*\*, and El-Kebir M.\n
+. Leah Weber\*, *Palash Sashittal*\*, and Mohammed El-Kebir\n
 [https://academic.oup.com/bioinformatics/article/37/Supplement_1/i214/6319699?login=false doubletD: detecting doublets in single-cell DNA sequencing data]\n
-/Bioinformatics/, 2021. 
-. *Sashittal P.* and El-Kebir M.\n
+/Bioinformatics/, 2021.
+. *Palash Sashittal* and Mohammed El-Kebir\n
 [https://academic.oup.com/bioinformatics/article/36/Supplement_1/i362/5870507 Sampling and summarizing transmission trees with multi-strain infections]\n
-/Bioinformatics/, 2020. \[[https://uofi.box.com/s/q5uabj764ixjoi9zjqdafubp9pi1bksz Paper]\]
-. *Sashittal P.* and Bodony D.\n
+/Bioinformatics/, 2020.
+. *Palash Sashittal* and Daniel Bodony\n
 [https://link.springer.com/article/10.1007/s00162-019-00508-9 Reduced-order control using low-rank dynamic mode decomposition]\n
-/Theoretical and Computational Fluid Dynamics/, 2019. \[[https://uofi.box.com/s/clgq0t1y0o3iyopkq0b2qcti5c2nvdvc Paper]\]
+/Theoretical and Computational Fluid Dynamics/, 2019.
 
 #== Conference papers
 #
